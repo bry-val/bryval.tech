@@ -1,5 +1,5 @@
 <div class="template-footer">
-    <a href="https://github.com/jajosheni/N95">Template by jajosheni</a>
+    <a href="https://github.com/jajosheni/N95">Designed by jajosheni</a>
 </div>
 
 <style>
