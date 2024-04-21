@@ -8,21 +8,19 @@
             .catch(error => console.error('Error:', error));
     }
 
-    function getCount() {
-        fetch('https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count')
-            .then(response => response.json())
-            .then(data => {
-                count = data.newCount;
-            })
-            .catch(error => console.error('Error:', error));
+    async function getCount() {
+        const response = await fetch("https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count");
+        const data = await response.json();
+        console.log(data)
     }
 
     onMount(() => {
-        updateView();
+        updateView(); 
         getCount();
     });
 </script>
 
 <div class="counter">
-    <h1 id="counter">Count: {count}</h1>
+    <h1 id="counter">Count: {data}</h1>
 </div>
+
