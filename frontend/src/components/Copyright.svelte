@@ -6,7 +6,7 @@
     .template-footer {
         position: fixed;
         float: left;
-        font-size: 0.75em;
+        font-size: 0.65em;
         background-color: var(--lighest-white-overlay);
         border-radius: 0 var(--radius) var(--radius) 0;
         padding: 5px;
@@ -20,7 +20,7 @@
     @media only screen and (max-width: 700px) {
         .template-footer {
             bottom: 5px;
-            opacity: 40%;
+            opacity: 0%;
         }
     }
 </style>
