@@ -1,7 +1,7 @@
 <script>
     import { onMount } from 'svelte';
 
-    let count = 0;
+    let count;
 
     function updateView() {
         fetch('https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count', { method: 'POST' })
