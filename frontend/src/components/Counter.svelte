@@ -10,8 +10,7 @@
 
     async function getCount() {
         const response = await fetch("https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count");
-        const data = await response.json();
-        console.log(data)
+        count = await response.json();
     }
 
     onMount(() => {
@@ -21,6 +20,6 @@
 </script>
 
 <div class="counter">
-    <h1 id="counter">Count: {data}</h1>
+    <h1 id="counter">Count: {count}</h1>
 </div>
 
