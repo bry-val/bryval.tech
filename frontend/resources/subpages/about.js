@@ -3,8 +3,8 @@ export default {
   pageTitle: 'About',
   icon: 'mdi-account-cowboy-hat',
 
-  greeting: 'Hello, I am Bryan Valencia',
-  description: 'I am a Cloud Developer based in Chicago, Illinois. I have a passion for developing software and cloud solutions. I am a team player and I am always eager to learn new technologies.',
+  greeting: 'Hi, I am Bryan Valencia',
+  description: 'I am an aspiring Cloud Developer and I have a passion for developing software and cloud solutions. I am a team player and I am always eager to learn new technologies.',
   birthYear: '2000',
   location: 'Chicago, Illinois',
   quote: '"He\'s a straight shooter with upper management written all over him."',
