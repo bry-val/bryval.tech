@@ -1,10 +1,10 @@
 export default {
-  coverImage: 'https://i.pinimg.com/originals/5e/66/18/5e6618a423dbc370f695a947842724ef.jpg',
-  profileImage: 'https://cdn.dribbble.com/users/1634115/screenshots/6245839/spiderman-dribbble.png',
+  coverImage: 'https://t4.ftcdn.net/jpg/05/83/36/27/360_F_583362799_tZAdbG2ZKCd0KCjdIUF7ww7d8AlBPkOX.jpg',
+  profileImage: 'https://i.imgur.com/CXfKULR.jpeg',
   fullName: 'Bryan Valencia',
   profession: 'Cloud Developer',
   cv: {
-    url: 'http://www.msnlabs.com/img/resume-sample.pdf',
+    url: 'https://drive.google.com/uc?export=download&id=1QWldDBGaa0hzBL71Dvt7ZiLWrFYmOzT5',
     icon: 'mdi-download'
   },
   email: {
@@ -14,23 +14,13 @@ export default {
   links: [
     {
       title: 'Github',
-      url: '#',
+      url: 'https://github.com/bry-val',
       icon: 'mdi-github'
     },
     {
       title: 'Linkedin',
-      url: '#',
+      url: 'https://www.linkedin.com/in/bry-val/',
       icon: 'mdi-linkedin'
-    },
-    {
-      title: 'Instagram',
-      url: '#',
-      icon: 'mdi-instagram'
-    },
-    {
-      title: 'Play Store',
-      url: '#',
-      icon: 'mdi-google-play'
     }
   ]
 };

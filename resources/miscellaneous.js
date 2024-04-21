@@ -3,7 +3,7 @@ export const title = 'Bryan Valencia | Personal Page';
 export const meta = [
   {
     name: 'description',
-    content: 'Peter Parker is a Computer Engineer, Photographer & Designer based in LA.'
+    content: 'Personal page of Bryan Valencia, a Cloud Developer based in Chicago, Illinois. Passionate about developing software and cloud solutions. Team player and always eager to learn new technologies.'
   },
   {
     name: 'keywords',
