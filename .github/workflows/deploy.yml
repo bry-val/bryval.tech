@@ -2,7 +2,7 @@ name: CD
 
 on:
   push:
-    branches: [ '**.svelte', '**.js' ] 
+    paths: [ '**.svelte', '**.js' ] 
 
 jobs:
   build:

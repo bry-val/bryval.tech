@@ -7,7 +7,7 @@ export const meta = [
   },
   {
     name: 'keywords',
-    content: 'john,doe,personal,site,developer,software,web,desktop,mobile,fast,reliable,resume'
+    content: 'bryan,valencia,personal,site,cloud,developer,software,web,desktop,mobile,fast,reliable,resume'
   }
 ];
 export const landingPage = 'about';

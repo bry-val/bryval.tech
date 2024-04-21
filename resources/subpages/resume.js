@@ -28,10 +28,10 @@ export default {
     icon: 'mdi-school',
     data: [
       {
-        major: 'Journalism',
-        start: '09/2014',
-        end: '07/2018',
-        institute: 'High School',
+        major: 'Computer Information Sciences',
+        start: '01/2019',
+        end: '12/2023',
+        institute: 'College',
         description: 'Hanging out with Ned and MJ, throwing house parties, city parties and all kind of parties.'
       },
     ]
@@ -41,16 +41,16 @@ export default {
     icon: 'mdi-medal',
     data: [
       {
-        title: 'Key of LA',
-        date: '14/07/2020',
-        issuedBy: 'Los Angeles Major',
-        description: 'I was honered to be given the key to the city by the Los Angeles Major. #goals'
+        title: 'Security+',
+        date: '06/2023',
+        issuedBy: 'CompTIA',
+        description: 'Globally trusted, vendor-neutral certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career'
       },
       {
-        title: 'Best Costume',
-        date: '19/12/2019',
-        issuedBy: 'Marvel Comics',
-        description: 'Got the award for the best costume ever made on Marvel Comics, gotta love it.'
+        title: 'Solutions Architect - Associate',
+        date: '05/2024',
+        issuedBy: 'AWS',
+        description: '(IN PROGRESS) Validate your technical skills and expertise with an industry-recognized credential and grow your career by earning AWS Certified Solutions Architect – Associate certification'
       },
     ]
   },
