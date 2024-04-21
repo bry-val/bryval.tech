@@ -8,11 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - run: cd frontend
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: cd frontend
       - run: npm ci
       - run: npm run build
       - uses: aws-actions/configure-aws-credentials@v1
