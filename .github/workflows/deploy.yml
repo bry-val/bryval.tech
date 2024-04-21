@@ -22,3 +22,6 @@ jobs:
       - run: aws s3 sync ./frontend/public s3://www.bryval.tech
       - run: aws cloudfront create-invalidation --distribution-id EY8DKP6IFJJSH --paths "/*"
       - run: aws cloudfront create-invalidation --distribution-id E1ULMG9K6R52JJ --paths "/*"
+
+
+      
