@@ -6,12 +6,10 @@
 
 <div class="fields uppercase">
     {#each fields as field, i}
-        {#if i % 2 === 0}
-            <div class="field-group mr-1">
-                <Field {field}/>
-                <Field field={fields[i + 1]}/>
-            </div>
-        {/if}
+        <div class="field-group mr-1">
+            <Field {field}/>
+            <br>
+        </div>
     {/each}
 </div>
 

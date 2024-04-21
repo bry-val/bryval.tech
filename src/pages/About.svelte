@@ -5,13 +5,11 @@
   import Hobby from '../components/pages/Hobby.svelte';
 
   const fields = [
-    {
-      name: 'age',
-      value: (new Date()).getFullYear() - about.birthYear || 2000
-    },
-    {name: 'residence', value: about.residence},
-    {name: 'freelance', value: about.freelance},
-    {name: 'address', value: about.address}
+    {name: 'location', value: about.location}
+    // {
+    //   name: 'age',
+    //   value: (new Date()).getFullYear() - about.birthYear || 2000
+    // }
   ];
 </script>
 

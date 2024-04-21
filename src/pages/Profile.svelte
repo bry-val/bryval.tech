@@ -21,6 +21,7 @@
             <span class="block primary-color" id="profession">{card.profession}</span>
         </div>
 
+
         <Links links={card.links}/>
 
         <Footer cv={card.cv} email={card.email}/>
