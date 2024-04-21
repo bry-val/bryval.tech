@@ -2,6 +2,7 @@
   import card from '../../resources/card';
   import Links from '../components/pages/Card/Links.svelte';
   import Footer from '../components/pages/Card/Footer.svelte';
+  import Counter from '../components/Counter.svelte';
 </script>
 
 <div class="grid-item-profile">
@@ -23,7 +24,7 @@
 
 
         <Links links={card.links}/>
-
+        <Counter />
         <Footer cv={card.cv} email={card.email}/>
     </div>
 </div>
