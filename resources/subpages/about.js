@@ -3,13 +3,12 @@ export default {
   pageTitle: 'About',
   icon: 'mdi-account-cowboy-hat',
 
-  greeting: 'Hello, I am Peter Parker.',
-  description: 'American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility, along with the ability to cling to walls, turning him into Spider-Man.',
-  birthYear: '1996',
+  greeting: 'Hi, I\'m Bryan Valencia',
+  description: 'He\'s a straight shooter with upper management written all over him.',
+  birthYear: '2000',
   residence: 'USA',
-  freelance: 'Unavailable',
-  address: 'Los Angeles, CA',
-  quote: 'An ambitious man either wins or learns.',
+  address: 'Chicago, Illinois',
+  quote: 'The happiness of your life depends upon the quality of your thoughts.',
   hobbies: [
     {
       title: 'Table Tennis',
