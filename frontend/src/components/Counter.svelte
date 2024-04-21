@@ -4,12 +4,12 @@
     let count = 0;
 
     function updateView() {
-        fetch('arn:aws:apigateway:us-east-1::/apis/qva7ihmm4j/routes/f3zlwuk', { method: 'POST' })
+        fetch('https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count', { method: 'POST' })
             .catch(error => console.error('Error:', error));
     }
 
     function getCount() {
-        fetch('arn:aws:apigateway:us-east-1::/apis/qva7ihmm4j/routes/uyr5ud2')
+        fetch('https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count')
             .then(response => response.json())
             .then(data => {
                 count = data.newCount;
