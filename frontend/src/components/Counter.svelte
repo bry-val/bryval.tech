@@ -34,7 +34,7 @@
 </script>
 
 <div class="counter">
-  <span id="counter">Site Visits: {isLoading ? count : `Count: ${count}`}</span>
+  <span id="counter">Site Visits: {isLoading ? count : count}</span>
 </div>
 
 <style>
