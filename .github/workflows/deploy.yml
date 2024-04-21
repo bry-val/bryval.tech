@@ -20,3 +20,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - run: aws s3 sync ./public s3://www.bryval.tech
+      - run: aws cloudfront create-invalidation --distribution-id EY8DKP6IFJJSH --paths "/*"
+      - run: aws cloudfront create-invalidation --distribution-id E1ULMG9K6R52JJ --paths "/*"
