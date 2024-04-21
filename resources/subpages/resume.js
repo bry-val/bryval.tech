@@ -8,18 +8,18 @@ export default {
     icon: 'mdi-tie',
     data: [
       {
-        title: 'Spider-Man',
-        start: '06/2010',
+        title: 'Information Technology Analyst',
+        start: '01/2023',
         end: 'present',
-        company: 'Spider-Verse',
-        description: 'Swinging from building to building, fighting bad guys and making a difference in the world.'
+        company: 'Kimley-Horn and Associates, Inc.',
+        description: 'Windows System Administration, Network Administration, and Tier 2 Service Desk Support'
       },
       {
-        title: 'Journalist',
-        start: '06/2010',
-        end: 'present',
-        company: 'Freelance',
-        description: 'Taking selfies secretly and selling them to newspapers, it\s a win win, right?'
+        title: 'Help Desk Analyst',
+        start: '12/2022',
+        end: '01/2023',
+        company: 'University of Illinois',
+        description: 'Help Desk Support for students, faculty, and staff'
       },
     ]
   },
