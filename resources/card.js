@@ -1,14 +1,14 @@
 export default {
   coverImage: 'https://i.pinimg.com/originals/5e/66/18/5e6618a423dbc370f695a947842724ef.jpg',
   profileImage: 'https://cdn.dribbble.com/users/1634115/screenshots/6245839/spiderman-dribbble.png',
-  fullName: 'Peter Parker',
-  profession: 'Spider-Man',
+  fullName: 'Bryan Valencia',
+  profession: 'Cloud Developer',
   cv: {
     url: 'http://www.msnlabs.com/img/resume-sample.pdf',
     icon: 'mdi-download'
   },
   email: {
-    address: 'peter@parker.com',
+    address: 'bryan@bryanvalencia.dev',
     icon: 'mdi-email-send'
   },
   links: [
