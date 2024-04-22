@@ -78,4 +78,10 @@
         text-align: center;
         font-weight: normal;
     }
+    
+    @media only screen and (max-width: 480px) {
+        .grid-item-profile {
+            height: 100vh;
+        }
+    }
 </style>
