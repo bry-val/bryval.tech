@@ -12,10 +12,20 @@
     }
   }, 500);
 
-  function updateDatabase() {
-    fetch("https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count", {
-      method: "POST",
-    }).catch((error) => console.error("Error:", error));
+  async function updateDatabase() {
+    try {
+      const response = await fetch(
+        "https://qva7ihmm4j.execute-api.us-east-1.amazonaws.com/count",
+        {
+          method: "POST",
+        }
+      );
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   }
 
   async function getCount() {
