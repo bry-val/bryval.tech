@@ -5,13 +5,13 @@ export default {
 
   experience: {
     title: 'Experience',
-    icon: 'mdi-tie',
+    icon: 'mdi-briefcase',
     data: [
       {
         title: 'Information Technology Analyst',
         start: '01/2023',
         end: 'present',
-        company: 'Kimley-Horn and Associates, Inc.',
+        company: 'Kimley-Horn and Associates',
         description: 'Windows System Administration, Network Administration, and Tier 2 Service Desk Support'
       },
       {
@@ -28,17 +28,17 @@ export default {
     icon: 'mdi-school',
     data: [
       {
-        major: 'Computer Information Sciences',
+        major: 'Information Sciences',
         start: '01/2019',
         end: '12/2023',
-        institute: 'College',
+        institute: 'University of Illinois at Urbana-Champaign',
         description: 'Hanging out with Ned and MJ, throwing house parties, city parties and all kind of parties.'
       },
     ]
   },
   certificatesAndAwards: {
     title: 'Certificates/Awards',
-    icon: 'mdi-medal',
+    icon: 'mdi-license',
     data: [
       {
         title: 'Security+',
@@ -50,35 +50,35 @@ export default {
         title: 'Solutions Architect - Associate',
         date: '05/2024',
         issuedBy: 'AWS',
-        description: '(IN PROGRESS) Validate your technical skills and expertise with an industry-recognized credential and grow your career by earning AWS Certified Solutions Architect – Associate certification'
+        description: '(IN PROGRESS) This certification showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework'
       },
     ]
   },
   academic: {
-    title: 'Academic',
-    icon: 'mdi-library-shelves',
+    title: 'Self-Development',
+    icon: 'mdi-brain',
     data: [
       {
-        title: 'Research paper on criminals.',
-        date: '10/07/2019',
-        issuedBy: 'MIT',
-        description: 'Published a research paper at MIT about criminal behaviours and predictions.'
+        date: 'Self-Guided',
+        title: 'Exercism',
+        issuedBy: 'Open-Source',
+        description: 'Open-source and free programming challenges to practice data structures and algorithms. Similar to Leetcode but more focused on learning. I aim to complete 1 challenge per day in either the C# or Golang tracks.'
       },
     ]
   },
   skills: [
     {
-      title: 'Swinging',
+      title: 'Programming',
       barType: 'line',
       icon: 'mdi-web',
       items: [
         {
-          title: 'Horizontally',
-          level: 80
+          title: 'Python',
+          level: 90
         },
         {
-          title: 'Vertically',
-          level: 90
+          title: 'JavaScript',
+          level: 45
         },
       ]
     },
@@ -107,12 +107,12 @@ export default {
       icon: 'mdi-earth',
       items: [
         {
-          title: 'Albanian',
+          title: 'English',
           level: 100
         },
         {
-          title: 'English',
-          level: 94
+          title: 'Spanish',
+          level: 100
         },
       ]
     },

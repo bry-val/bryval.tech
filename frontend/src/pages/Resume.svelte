@@ -90,7 +90,7 @@
 
 <style>
     section {
-        width: calc(50% - 5px);
+        width: calc(49% - 3px);
     }
 
     .resume-container {

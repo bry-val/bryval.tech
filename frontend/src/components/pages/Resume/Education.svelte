@@ -14,12 +14,11 @@
     </div>
     <span class="block uppercase">{education.major}</span>
     <span class="block institute">{education.institute}</span>
-    <div class="description">{education.description}</div>
 </div>
 
 <style>
     .education {
-        min-height: 180px;
+        min-height: 100px;
     }
 
     .education:last-of-type {
@@ -37,8 +36,8 @@
         font-size: 12px;
         color: var(--dark-text)
     }
-
+/* 
     .description {
         font-size: 0.9em;
-    }
+    } */
 </style>
