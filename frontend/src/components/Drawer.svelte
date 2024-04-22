@@ -14,6 +14,7 @@
 </script>
 
 <div class="grid-item-drawer mb-1 mt-2">
+    <!-- svelte-ignore a11y-missing-content -->
     <a id="drawer-anchor" style="display: inline"></a>
 
     {#each $TabStore as item (item.name)}
