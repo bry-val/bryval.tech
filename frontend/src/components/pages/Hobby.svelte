@@ -17,7 +17,7 @@
 
 <style>
     .hobby-container {
-        display: flex;
-        justify-content: space-between;
+      display: flex;
+      justify-content: flex-start;
     }
 </style>

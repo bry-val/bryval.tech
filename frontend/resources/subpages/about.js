@@ -10,14 +10,19 @@ export default {
   quote: '"He\'s a straight shooter with upper management written all over him."',
   hobbies: [
     {
-      title: 'Table Tennis',
-      icon: 'mdi-table-tennis',
-      description: 'A terrific game to play, keeps one\'s mind sharp and ready.'
+      title: 'Game Development',
+      icon: 'mdi-controller-classic',
+      description: 'On a journey to learn game development with Godot 4. I plan to make games for myself and my family.'
     },
     {
-      title: 'Football',
+      title: 'Soccer',
       icon: 'mdi-soccer',
-      description: 'Who would not enjoy a match with friends on a friday evening?'
+      description: 'Helps me stay active! I aim to get out and play two times per week.'
+    },
+    {
+      title: 'Fitness',
+      icon: 'mdi-weight-lifter',
+      description: 'I\'m passionate about self-care and fitness. Some weeks are better than others but I try to get 3 workouts in per week.'
     },
   ]
 };
