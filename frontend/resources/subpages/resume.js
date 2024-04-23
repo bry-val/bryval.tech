@@ -82,25 +82,25 @@ export default {
         },
       ]
     },
-    {
-      title: 'Design',
-      barType: 'line',
-      icon: 'mdi-brush-variant',
-      items: [
-        {
-          title: 'Web Design',
-          level: 85
-        },
-        {
-          title: 'Photoshop',
-          level: 90
-        },
-        {
-          title: 'After Effects',
-          level: 80
-        },
-      ]
-    },
+    // {
+    //   title: 'Design',
+    //   barType: 'line',
+    //   icon: 'mdi-brush-variant',
+    //   items: [
+    //     {
+    //       title: 'Web Design',
+    //       level: 85
+    //     },
+    //     {
+    //       title: 'Photoshop',
+    //       level: 90
+    //     },
+    //     {
+    //       title: 'After Effects',
+    //       level: 80
+    //     },
+    //   ]
+    // },
     {
       title: 'Languages',
       barType: 'dots',
@@ -116,20 +116,20 @@ export default {
         },
       ]
     },
-    {
-      title: 'Knowledge',
-      barType: 'dots',
-      icon: 'mdi-book-open-page-variant',
-      items: [
-        {
-          title: 'Web shoot',
-          level: 94
-        },
-        {
-          title: 'Taking pictures',
-          level: 91
-        },
-      ]
-    }
+    // {
+    //   title: 'Knowledge',
+    //   barType: 'dots',
+    //   icon: 'mdi-book-open-page-variant',
+    //   items: [
+    //     {
+    //       title: 'Web shoot',
+    //       level: 94
+    //     },
+    //     {
+    //       title: 'Taking pictures',
+    //       level: 91
+    //     },
+    //   ]
+    // }
   ],
 };

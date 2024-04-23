@@ -1,20 +1,40 @@
 export default {
   name: 'services', // do not change
-  pageTitle: 'Services',
-  header: 'Fast and Reliable',
-  icon: 'mdi-monitor-shimmer',
+  pageTitle: 'Book Log',
+  header: 'Book Log for 2024',
+  icon: 'mdi-book-open-page-variant',
 
-  footer: 'Fast and Reliable.',
+  footer: 'Book log for this year!.',
   products: [
     {
-      title: 'Web shoot',
-      icon: 'mdi-webpack',
-      description: 'Shooting web out of my bare hands, can you believe it ... crazy, right?'
+      title: 'Writing to Learn',
+      icon: 'mdi-circle-slice-3',
+      description: 'How to write and think clearly about any subject at all.'
     },
     {
-      title: 'Taking pictures',
-      icon: 'mdi-desktop-mac',
-      description: 'Delivering high-end and superb pictures of myself in all different locations.'
-    }
+      title: 'How to Stubbornly Refuse to Make Yourself Miserable About Anything',
+      icon: 'mdi-circle-slice-1',
+      description: 'Rational Emotive Behavior Therapy techniques to be happier'
+    },
+    {
+      title: 'The Phoenix Project',
+      icon: 'mdi-circle-slice-8',
+      description: 'Story about developing a DevOps culture in an organization from the lens of IT Operations.'
+    },
+    {
+      title: 'The Unicorn Project',
+      icon: 'mdi-circle-slice-8',
+      description: 'Story about developing a DevOps culture to help a company innovate and thrive in the market via software.'
+    },
+    {
+      title: 'So Good They Can\'t Ignore You',
+      icon: 'mdi-circle-slice-8',
+      description: 'Skills are more important than passion in finding a fulfilling career.'
+    },
+    {
+      title: 'The Stranger',
+      icon: 'mdi-circle-slice-8',
+      description: 'Novel with the theme of absurdism and existentialism.'
+    },
   ]
 };

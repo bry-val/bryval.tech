@@ -1,6 +1,7 @@
 <script>
   import services from '../../resources/subpages/services';
   import Product from '../components/pages/Product.svelte';
+  import Card from '../shared/Card.svelte';
 </script>
 
 
@@ -13,9 +14,22 @@
     {/each}
 </div>
 
+
+    <!-- <div>
+        {#each services.products as product}
+            <div class="mb-1">
+                <Product {product}/>
+            </div>
+        {/each}
+    </div> -->
+
+
 <style>
     .product {
-        width: calc(50% - 15px);
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(75% - 15px);
+        margin: 0 auto; /* Add this line to center the content */
     }
 
     .services-container {
